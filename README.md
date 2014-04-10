@@ -24,14 +24,14 @@ Tools](https://developer.apple.com/downloads) if you're on a Mac.
 This will download a shell script that clones the repository into `~/dotfiles`.
 
 ```bash
-bash -c "$(curl -fsSL raw.github.com/pkruithof/dotfiles/master/bootstrap)"
+bash -c "$(curl -fsSL raw.github.com/cleentfaar/dotfiles/master/bootstrap)"
 ```
 
 ### Using Git
 You can manually checkout the repo if you want to, and run the install script afterwards.
 
 ```bash
-git clone https://github.com/pkruithof/dotfiles.git ~/.dotfiles && ~/.dotfiles/bin/dotfiles
+git clone https://github.com/cleentfaar/dotfiles.git ~/.dotfiles && ~/.dotfiles/bin/dotfiles
 ```
 
 ## How to update
