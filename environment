@@ -3,5 +3,5 @@
 cd "$(dirname "${BASH_SOURCE}")"
 
 export DOTFILES_ROOT="$(pwd -P)"
-export DOTFILES_REPO="https://github.com/pkruithof/dotfiles"
+export DOTFILES_REPO="https://github.com/cleentfaar/dotfiles"
 export GITRC_FILE="${HOME}/.gitrc"

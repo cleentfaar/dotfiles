@@ -60,7 +60,7 @@
     clear = !git clean -df && git reset --hard && git stash clear
 
     # forks current repo and updates remotes
-    fork = !hub fork && git remote rename origin upstream && git remote rename pkruithof origin
+    fork = !hub fork && git remote rename origin upstream && git remote rename cleentfaar origin
 
     # Merge GitHub pull request on top of the `master` branch
     mpr = "!f() { \
